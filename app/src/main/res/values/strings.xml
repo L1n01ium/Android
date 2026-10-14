@@ -1,6 +1,21 @@
 <resources>
-    <string name="app_name">Hw1</string>
-    <string name="first_and_second_name">Наджафов Заур</string>
-    <string name="group_number">11-504</string>
-    <string name="open_second_screen">Открыть второй экран</string>
+    <string name="app_name">Homework</string>
+
+    <string name="login_title">Авторизация</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Пароль</string>
+    <string name="login_button">Далее</string>
+
+    <string name="error_email_empty">Введите email</string>
+    <string name="error_email_invalid">Некорректный email</string>
+    <string name="error_password_empty">Введите пароль</string>
+    <string name="error_password_short">Пароль должен быть минимум 8 символов</string>
+    <string name="error_password_format">Пароль должен содержать латиницу и цифры</string>
+
+    <string name="generated_password_label">Сгенерированный пароль</string>
+    <string name="copy_password">Скопировать пароль</string>
+    <string name="back_button">Назад</string>
+
+    <string name="image_success_url">https://cdn-icons-png.flaticon.com/512/190/190411.png</string>
+    <string name="image_fail_url">https://cdn-icons-png.flaticon.com/512/753/753345.png</string>
 </resources>
