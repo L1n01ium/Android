@@ -110,7 +110,10 @@ fun CoroutineTestScreen() {
                 isRunning = true
                 currentJob = scope.launch {
                     for (i in 1..coroutineCount) {
-                        delay(1000)
+                        launch {
+                            delay(1000)
+                        }.join()
+
                         progress = i.toFloat() / coroutineCount
                     }
                     isRunning = false
