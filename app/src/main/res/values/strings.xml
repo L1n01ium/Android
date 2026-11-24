@@ -1,27 +1,8 @@
 <resources>
     <string name="app_name">Homework</string>
 
-    <string name="notif_permission_msg">Для нормальной работы приложения нужно предоставить разрешение на показ уведомлений</string>
-    <string name="notif_permission_btn">Открыть настройки</string>
-
-    <string name="notif_title_hint">Заголовок уведомления</string>
-    <string name="notif_text_hint">Текст уведомления</string>
-    <string name="notif_ongoing">Несмахиваемое (Ongoing)</string>
-    <string name="notif_importance">Importance</string>
-    <string name="notif_send_btn">Отправить уведомление</string>
-
-    <string name="active_notifs_label">Активные уведомления (ID): %1$s</string>
-    <string name="notif_id_hint">ID уведомления</string>
-    <string name="btn_edit">Редактировать</string>
-    <string name="btn_delete">Удалить</string>
-    <string name="btn_delete_all">Удалить все</string>
-    <string name="btn_open_second_screen">Открыть второй экран</string>
-    <string name="fill_fields">Заполните заголовок и текст</string>
-
-    <string name="back">Назад</string>
-    <string name="second_screen_title">Геолокация</string>
-    <string name="location_hint">Для определения координат нажмите на кнопку</string>
-    <string name="btn_get_location">Получить координаты</string>
-    <string name="location_denied">Разрешение на геолокацию отклонено.</string>
-    <string name="location_format">Широта: %1$.5f\nДолгота: %2$.5f</string>
+    <string name="coroutine_count_label">Количество корутин: %1$d</string>
+    <string name="run_sequential">Запустить последовательно</string>
+    <string name="run_parallel">Запустить параллельно</string>
+    <string name="cancel_all">Отменить все</string>
 </resources>
