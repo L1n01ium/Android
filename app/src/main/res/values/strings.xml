@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Homework</string>
+
+    <string name="coroutine_count_label">Количество корутин: %1$d</string>
+    <string name="run_sequential">Запустить последовательно</string>
+    <string name="run_parallel">Запустить параллельно</string>
+    <string name="cancel_all">Отменить все</string>
+</resources>
